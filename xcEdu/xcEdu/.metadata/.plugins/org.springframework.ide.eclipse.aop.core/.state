@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="xc-framework-parent"/>
+<aop-project name="xc-framework-common"/>
+<aop-project name="xc-service-manage-media"/>
+</aop-reference-model>

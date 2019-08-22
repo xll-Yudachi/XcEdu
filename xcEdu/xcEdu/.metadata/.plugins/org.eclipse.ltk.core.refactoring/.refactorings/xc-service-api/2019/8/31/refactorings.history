@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.xuecheng.api.auth.AuthController&apos; to &apos;AuthControllerApi&apos;&#x0D;&#x0A;- Original project: &apos;xc-service-api&apos;&#x0D;&#x0A;- Original element: &apos;com.xuecheng.api.auth.AuthController&apos;&#x0D;&#x0A;- Renamed element: &apos;com.xuecheng.api.auth.AuthControllerApi&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AuthController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.xuecheng.api.auth{AuthController.java[AuthController" matchStrategy="1" name="AuthControllerApi" qualified="false" references="true" similarDeclarations="false" stamp="1564655555814" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.xuecheng.order.mq;
+
+public class ChooseCourseTask {
+
+}

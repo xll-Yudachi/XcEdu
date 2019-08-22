@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xuecheng.ucenter.dao.XcMenuMapper">
+	<select id="selectPermissionByUserId" parameterType="java.lang.String"
+			resultType="com.xuecheng.framework.domain.ucenter.XcMenu">
+		select 
+			id, code, p_id pId, menu_name menuName, url, is_menu isMenu,
+			level, sort, status, icon, create_time createTime, update_time updateTime
+		from 
+			xc_menu
+		where 
+			id 
+		in(
+			select menu_id from xc_permission where role_id in(
+				select role_id from xc_user_role where user_id = #{id}
+			)
+		)
+			
+	</select>
+</mapper>

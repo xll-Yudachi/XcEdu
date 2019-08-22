@@ -1,0 +1,39 @@
+server:
+  port: 22100
+spring:
+  application:
+    name: xc-service-base-filesystem
+#mongo配置
+  data:
+    mongodb:
+      database: xc_fs
+      uri: mongodb://127.0.0.1:27017
+#SpringMVC上传文件配置
+  servlet:
+    multipart:
+      #默认支持文件上传.
+      enabled: true
+      #支持文件写入磁盘.
+      file-size-threshold: 0
+      # 上传文件的临时目录
+      location:
+      # 最大支持文件大小
+      max-file-size: 2MB
+      # 最大支持请求大小
+      max-request-size: 30MB
+xuecheng:
+  fastdfs:
+    connect_timeout_in_seconds: 5
+    network_timeout_in_seconds: 30
+    charset: UTF-8
+    tracker_servers: 192.168.80.132:22122 #多个 trackerServer中间以逗号分隔
+eureka: 
+  client:
+    registerWithEureka: true #服务注册开关
+    fetchRegistry: true #服务发现开关
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址，多个中间用逗号分隔
+      defaultZone: http://localhost:50101/eureka/,http://localhost:50102/eureka/
+  instance:
+    prefer-ip-address:  true  #将自己的ip地址注册到Eureka服务中
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port} #指定实例id

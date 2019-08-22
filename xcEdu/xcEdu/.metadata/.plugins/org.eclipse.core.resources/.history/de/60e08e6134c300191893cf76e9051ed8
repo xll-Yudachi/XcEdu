@@ -1,0 +1,5 @@
+package com.xuecheng.learning.dao;
+
+public interface XcTaskHisRepository {
+
+}

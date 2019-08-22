@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="restT"/>
+			<item value="rest"/>
+			<item value="saveCookie"/>
+			<item value="相对"/>
+			<item value="#"/>
+			<item value="fold"/>
+			<item value="null"/>
+			<item value="size"/>
+			<item value="nu;"/>
+			<item value="data"/>
+			<item value="courseview"/>
+			<item value="postpage"/>
+			<item value="postPage"/>
+			<item value="getSplitPath"/>
+			<item value="pageid"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="temp"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="356" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="-28" key="DIALOG_X_ORIGIN"/>
+		<item value="218" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

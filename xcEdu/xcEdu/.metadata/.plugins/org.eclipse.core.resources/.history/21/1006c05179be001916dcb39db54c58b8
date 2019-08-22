@@ -1,0 +1,16 @@
+package com.xuecheng.order.dao;
+
+import java.util.Date;
+
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.github.pagehelper.Page;
+import com.xuecheng.framework.domain.task.XcTask;
+
+public interface XcTaskRepository extends JpaRepository<XcTask, String>{
+
+	//查询某个时间之前的前N条任务
+	Page<XcTask> findByUpdateTimeBefore(Pageable pageable, Date updateTime);
+	
+}

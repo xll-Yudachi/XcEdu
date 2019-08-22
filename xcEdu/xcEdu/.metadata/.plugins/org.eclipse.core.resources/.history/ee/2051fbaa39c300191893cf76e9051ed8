@@ -1,0 +1,5 @@
+package com.xuecheng.order.dao;
+
+public interface XcTaskHisRepository {
+
+}

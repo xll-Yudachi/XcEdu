@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RabbitmqConfig.java&apos; to &apos;xc-service-manage-cms/src/main/java/com.xuecheng.manage_cms.config&apos;&#x0D;&#x0A;- Original project: &apos;xc-service-manage-cms-client&apos;&#x0D;&#x0A;- Destination element: &apos;xc-service-manage-cms/src/main/java/com.xuecheng.manage_cms.config&apos;&#x0D;&#x0A;- Original element: &apos;com.xuecheng.manage.cms.client.config.RabbitmqConfig.java&apos;" description="Copy compilation unit" destination="=xc-service-manage-cms/src\/main\/java&lt;com.xuecheng.manage_cms.config" element1="/src\/main\/java&lt;com.xuecheng.manage.cms.client.config{RabbitmqConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1560675971424" units="1" version="1.0"/>
+</session>
